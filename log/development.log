@@ -29603,3 +29603,107 @@ To customize the errors styles please run `rails g devise:views` and modify the
 Completed 200 OK in 1023ms (Views: 1022.4ms | ActiveRecord: 0.0ms)
 
 
+DEPRECATION WARNING: #fog_provider is deprecated and has no effect (called from block in <top (required)> at /Users/ruquia7/projects/chat-decade/config/initializers/carrierwave.rb:7)
+Started GET "/" for ::1 at 2020-06-23 13:45:03 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by GroupsController#index as HTML
+Completed 401 Unauthorized in 11ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-06-23 13:45:04 +0900
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.haml (1.8ms)
+  Rendered devise/sessions/new.html.haml within layouts/application (20.2ms)
+  Rendered layouts/_notifications.html.haml (3.2ms)
+Completed 200 OK in 355ms (Views: 337.0ms | ActiveRecord: 7.2ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2020-06-23 13:45:07 +0900
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.haml (1.5ms)
+DEPRECATION WARNING: [Devise] `DeviseHelper.devise_error_messages!`
+is deprecated and it will be removed in the next major version.
+To customize the errors styles please run `rails g devise:views` and modify the
+`devise/shared/error_messages` partial.
+ (called from block in _app_views_devise_registrations_new_html_haml___4594049873073262816_70359950800260 at /Users/ruquia7/projects/chat-decade/app/views/devise/registrations/new.html.haml:13)
+  Rendered devise/registrations/new.html.haml within layouts/application (9.5ms)
+  Rendered layouts/_notifications.html.haml (1.3ms)
+Completed 200 OK in 36ms (Views: 35.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-06-23 13:46:13 +0900
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.haml (1.7ms)
+  Rendered devise/sessions/new.html.haml within layouts/application (7.9ms)
+  Rendered layouts/_notifications.html.haml (1.5ms)
+Completed 200 OK in 37ms (Views: 35.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-06-23 13:46:50 +0900
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.haml (2.2ms)
+  Rendered devise/sessions/new.html.haml within layouts/application (8.3ms)
+  Rendered layouts/_notifications.html.haml (1.3ms)
+Completed 200 OK in 39ms (Views: 37.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2020-06-23 13:47:04 +0900
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.haml (1.6ms)
+DEPRECATION WARNING: [Devise] `DeviseHelper.devise_error_messages!`
+is deprecated and it will be removed in the next major version.
+To customize the errors styles please run `rails g devise:views` and modify the
+`devise/shared/error_messages` partial.
+ (called from block in _app_views_devise_registrations_new_html_haml___4594049873073262816_70360013844060 at /Users/ruquia7/projects/chat-decade/app/views/devise/registrations/new.html.haml:13)
+  Rendered devise/registrations/new.html.haml within layouts/application (10.3ms)
+  Rendered layouts/_notifications.html.haml (1.8ms)
+Completed 200 OK in 41ms (Views: 39.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2020-06-23 13:48:45 +0900
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.haml (1.8ms)
+DEPRECATION WARNING: [Devise] `DeviseHelper.devise_error_messages!`
+is deprecated and it will be removed in the next major version.
+To customize the errors styles please run `rails g devise:views` and modify the
+`devise/shared/error_messages` partial.
+ (called from block in _app_views_devise_registrations_new_html_haml___4594049873073262816_70359949437700 at /Users/ruquia7/projects/chat-decade/app/views/devise/registrations/new.html.haml:13)
+  Rendered devise/registrations/new.html.haml within layouts/application (10.9ms)
+  Rendered layouts/_notifications.html.haml (1.7ms)
+Completed 200 OK in 946ms (Views: 944.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2020-06-23 13:52:21 +0900
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.haml (1.8ms)
+DEPRECATION WARNING: [Devise] `DeviseHelper.devise_error_messages!`
+is deprecated and it will be removed in the next major version.
+To customize the errors styles please run `rails g devise:views` and modify the
+`devise/shared/error_messages` partial.
+ (called from block in _app_views_devise_registrations_new_html_haml___4594049873073262816_70360025156640 at /Users/ruquia7/projects/chat-decade/app/views/devise/registrations/new.html.haml:14)
+  Rendered devise/registrations/new.html.haml within layouts/application (11.6ms)
+  Rendered layouts/_notifications.html.haml (1.4ms)
+Completed 200 OK in 46ms (Views: 44.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2020-06-23 13:53:10 +0900
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.haml (1.6ms)
+DEPRECATION WARNING: [Devise] `DeviseHelper.devise_error_messages!`
+is deprecated and it will be removed in the next major version.
+To customize the errors styles please run `rails g devise:views` and modify the
+`devise/shared/error_messages` partial.
+ (called from block in _app_views_devise_registrations_new_html_haml___4594049873073262816_70359940284060 at /Users/ruquia7/projects/chat-decade/app/views/devise/registrations/new.html.haml:14)
+  Rendered devise/registrations/new.html.haml within layouts/application (11.0ms)
+  Rendered layouts/_notifications.html.haml (1.5ms)
+Completed 200 OK in 49ms (Views: 47.9ms | ActiveRecord: 0.0ms)
+
+

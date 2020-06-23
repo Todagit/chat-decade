@@ -1,4 +1,8 @@
-# ChatSpaceのDB設計
+# Chat-Decade
+
+chat-decadeはchatspaceに個人的に追加したい機能を実装したチャットを楽しめるWebアプリケーションです。
+
+# Chat-DecadeのDB設計
 
 ## usersテーブル
 
