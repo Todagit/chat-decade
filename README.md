@@ -1,6 +1,6 @@
 # Chat-Decade
 
-chat-decadeはchatspaceに個人的に追加したい機能を実装したチャットを楽しめるWebアプリケーションです。
+chat-decadeは、chatspaceをベースとして、個人的に追加したい機能を追加して実装した、チャットを楽しめるWebアプリケーションです。
 
 # Chat-DecadeのDB設計
 
