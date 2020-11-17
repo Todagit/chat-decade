@@ -70,6 +70,8 @@ gem 'carrierwave'
 gem 'mini_magick'
 gem 'fog-aws'
 
+# gem "actionview", ">= 5.2.4.4"
+
 group :production do
   gem 'unicorn', '5.4.1'
 end
